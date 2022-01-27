@@ -9,6 +9,6 @@ const teamsController = new TeamsController();
     return response.json({message: 'Bem vindo a API do zeco - teams'});
 }) */
 
-teamsRouter.get('/teams', teamsController.getTeam);
+teamsRouter.get('/teams', teamsController.getTeams);
 
 export { teamsRouter };

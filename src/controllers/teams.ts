@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 //import { TeamsService } from "../services/teamsService";
 
 class TeamsController{
-    async getTeam(request: Request, response: Response){
+    async getTeams(request: Request, response: Response){
         //const { id, name } = request.body;
 
         //const teamsService = new TeamsService();
@@ -13,4 +13,4 @@ class TeamsController{
     }
 }
 
-export { TeamsController }
+export { TeamsController };

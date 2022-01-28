@@ -1,4 +1,6 @@
 # API times e campeonatos
+Simples API criada para estudos.
+
 
 ### retorna todos times
 https://api-times.herokuapp.com/teams/

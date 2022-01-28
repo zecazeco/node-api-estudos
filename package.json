@@ -5,8 +5,9 @@
   "main": "src/server.ts",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
-    "start": "node src/server.ts",
-    "postinstall": "tsc"
+    "start": "node build/index.js",
+    "build": "tsc",
+    "postinstall": "npm run build"    
   },
   "author": "",
   "license": "ISC",

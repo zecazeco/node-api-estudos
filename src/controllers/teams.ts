@@ -1,16 +1,19 @@
 import { Request, Response } from "express";
-//import { TeamsService } from "../services/teamsService";
+import { TeamsService } from "../services/teams";
+
+const teamsService = new TeamsService();
 
 class TeamsController{
-    async getTeams(request: Request, response: Response){
-        //const { id, name } = request.body;
+    async getAllTeams(request: Request, response: Response){
+        const allTeams = await teamsService.getAllTeams();
+        return response.json(allTeams);
+    };
 
-        //const teamsService = new TeamsService();
-
-        //const newMessage = await createMessageService.execute({ email, message});
-
-        return response.json({'nome': 'juventude'});
-    }
+    async getTeam(request: Request, response: Response){
+        let id: string = request.params.id;
+        const oneTeam = await teamsService.getTeam(id);
+        return response.json(oneTeam);
+    }; 
 }
 
 export { TeamsController };

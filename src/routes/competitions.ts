@@ -9,6 +9,7 @@ const competitionsController = new CompetitionsController();
     return response.json({message: 'competições'});
 }) */
 
-competitionsRouter.get('/competitions', competitionsController.getCompetitions);
+competitionsRouter.get('/competitions', competitionsController.getAllCompetitions);
+competitionsRouter.get('/competitions/:id', competitionsController.getCompetition);
 
 export { competitionsRouter };

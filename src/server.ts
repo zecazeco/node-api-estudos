@@ -11,6 +11,10 @@ app.use(cors());
 
 app.use(express.json());
 
+app.get("/", function (req, res) {
+    res.send("API Zeco")
+  })
+
 app.use(teamsRouter);
 app.use(competitionsRouter);
 

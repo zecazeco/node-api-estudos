@@ -19,6 +19,9 @@ app.use(teamsRouter);
 app.use(competitionsRouter);
 
 
-app.listen(5000, () => {
+const porta = process.env.PORT || 8080;
+
+//app.listen(5000, () => {
+app.listen(porta, () => {
     console.log('Server on port: 5000')
 })

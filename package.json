@@ -2,9 +2,10 @@
   "name": "api-futebol",
   "version": "1.0.0",
   "description": "",
-  "main": "source/server.ts",
+  "main": "src/server.ts",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "start": "node src/server.ts"
   },
   "author": "",
   "license": "ISC",

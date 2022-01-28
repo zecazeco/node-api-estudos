@@ -2,11 +2,11 @@
 
 ### retorna todos times
 https://api-times.herokuapp.com/teams/
-### retorna times por ID
+### retorna time especifico por ID
 https://api-times.herokuapp.com/teams/{id}
 ### retorna todas competições
 https://api-times.herokuapp.com/competitions/
-### retorna competição especifica
+### retorna competição especifica por ID
 https://api-times.herokuapp.com/competitions/{id}
 
 ## Author

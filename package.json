@@ -7,7 +7,8 @@
     "dev": "ts-node-dev src/server.ts",
     "start": "node dist/server.js",
     "build": "rimraf ./build && tsc",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "stop": "taskkill -F -IM node.exe"
   },
   "author": "",
   "license": "ISC",

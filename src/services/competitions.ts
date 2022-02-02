@@ -2,17 +2,20 @@ const competitions = [
   {
     id: 0,
     name: 'Copa do Mundoxx',
-    quantity: '32'
+    quantity: '32',
+    description: 'O maior campeonato de todos.'
   },
   {
     id: 1,
     name: 'Regional',
-    quantity: '16'
+    quantity: '16',
+    description: 'O campeonato raiz.'
   },
   {
     id: 2,
     name: 'Campeonato Brasileiro',
-    quantity: '20'
+    quantity: '20',
+    description: 'Sempre tem uma ajudinha externa.'
   }    
 ];
 

@@ -1,4 +1,4 @@
-# API times e campeonatos
+# Campeonatos, times e confrontos (backEnd)
 Simples API criada para estudos.
 
 
@@ -10,6 +10,9 @@ https://api-times.herokuapp.com/teams/{id}
 https://api-times.herokuapp.com/competitions/
 ### retorna competição especifica por ID
 https://api-times.herokuapp.com/competitions/{id}
+### retorna todas partidas de uma mesma competiçao
+https://api-times.herokuapp.com/competitions/{id}/matches/
+
 
 ## Author
 José Luís Haas

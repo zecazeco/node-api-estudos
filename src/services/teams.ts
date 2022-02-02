@@ -26,8 +26,8 @@ class TeamsService{
     return teams;
   };
 
-  async getTeam(id: string){
-    let team = teams.find(team => team.id === parseInt(id));
+  async getTeam(id: number){
+    let team = teams.find(team => team.id === id);
     return team;
   }  
 }

@@ -18,10 +18,9 @@ app.get("/", function (req, res) {
 app.use(teamsRouter);
 app.use(competitionsRouter);
 
-
-const porta = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 
 //app.listen(5000, () => {
-app.listen(porta, () => {
-    console.log('Server on port: 8080')
+app.listen(port, () => {
+    console.log('Server on port: 8080');
 })

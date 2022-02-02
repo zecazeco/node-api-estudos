@@ -11,7 +11,7 @@ class TeamsController{
 
     async getTeam(request: Request, response: Response){
         let id: string = request.params.id;
-        const oneTeam = await teamsService.getTeam(id);
+        const oneTeam = await teamsService.getTeam(parseInt(id));
         return response.json(oneTeam);
     }; 
 }

@@ -1,7 +1,7 @@
 const competitions = [  
   {
     id: 0,
-    name: 'Copa do Mundo',
+    name: 'Copa do Mundoxx',
     quantity: '32'
   },
   {
@@ -21,8 +21,8 @@ class CompetitionsService{
     return competitions;
   };
 
-  async getCompetition(id: string){
-    let competition = competitions.find(competition => competition.id === parseInt(id));
+  async getCompetition(id: number){
+    let competition = competitions.find(competition => competition.id === id);
     return competition;
   }  
 }

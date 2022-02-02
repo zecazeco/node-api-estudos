@@ -10,9 +10,10 @@ https://api-times.herokuapp.com/teams/{id}
 https://api-times.herokuapp.com/competitions/
 ### retorna competição especifica por ID
 https://api-times.herokuapp.com/competitions/{id}
-### retorna todas partidas de uma mesma competiçao
+### retorna todas partidas de uma mesma competição
 https://api-times.herokuapp.com/competitions/{id}/matches/
-
+### retorna todas equipes de uma mesma competição
+https://api-times.herokuapp.com/competitions/{id}/teams/
 
 ## Author
 José Luís Haas

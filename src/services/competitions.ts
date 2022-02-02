@@ -1,7 +1,7 @@
 const competitions = [  
   {
     id: 0,
-    name: 'Copa do Mundoxx',
+    name: 'Copa do Mundo',
     quantity: '32',
     description: 'O maior campeonato de todos.'
   },
